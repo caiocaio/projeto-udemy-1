@@ -2,8 +2,12 @@
     <head>
         <title>Aulas de Javascript</title>
         <script>
-
+            var messes = ["Janeiro", "Fevereiro", "Marco", "Abriu","Maio","Junho","Julho","Agosto","Setembro","Outubro", "Novembro", "Dezembro"];
+            var agora = new Date();
+            console.log(agora.getDate() + " de " + messes[agora.getMonth()] + " de " + agora.getFullYear());
             
+            var aniversario = new Date(1995,8,12);
+            console.log(aniversario.getDay());
         </script>
     </head>
     <body>
